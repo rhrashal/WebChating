@@ -1,0 +1,148 @@
+﻿body{
+	background-image: url('bgphoto.jpg')
+}
+
+
+#nav{
+	
+	background-color: none;
+	color : #6d0404;
+	opacity: 100%;
+	width: 25%;
+	height: 500px;
+	position: absolute;
+	border: 1px solid red;
+	border-radius: 25px;
+	overflow: auto;
+}
+#nav:hover{
+	background-color: #bcd2e7;
+}
+#users{
+	margin-left: 10%;
+	font-size : 20px;
+}
+
+#main{
+	padding-left: 15px;
+	padding-top: 10px;
+	background-color: none;
+	opacity: 100%;
+	width: 46%;
+	height: 450px;
+	position:absolute;
+	margin-left : 27%;
+	margin-right: 60%;
+	margin-bottom: 4px;
+	overflow: auto;
+	border: 1px solid black;
+	border-radius: 25px;
+}
+#main:hover{
+	background-color: #bcd2e7;
+}
+
+
+
+#aside{
+	padding-left: 5px;
+	background-color: none;
+	opacity: 100%;
+	width: 21%;
+	height: 500px;
+	position:absolute;
+	margin-left : 77%;
+	border: 1px solid red;
+	margin-bottom: 4px;
+	border-radius: 25px;
+}
+
+#aside:hover{
+	background-color: #bcd2e7;
+}
+
+#key{
+	background-color: none;
+	opacity: 100%;
+	width: 48%;
+	height: 43px;
+	position: fixed;
+	margin-top :463px;
+	margin-left : 27%;
+	margin-right: 60%;
+	border: 1px solid black;
+	border-radius: 25px;
+	
+}
+
+#key:hover{
+	background-color: #bcd2e7;
+}
+
+.image-upload>input {
+  display: none;
+}
+
+img{
+	height:35px;
+	width:35px;
+	margin-left: 50px;
+	float: left;
+	cursor: pointer;
+}
+
+img:active{
+	background-color: red;
+}
+
+#input{
+	margin-left:30%;	
+	
+}
+#data{
+	height:25px;
+	width:50%;
+	margin-top: 5px;
+	padding-left: 8px;
+	border: solid #050575;
+	border-radius: 25px;
+	background: none;
+	
+}
+#data:hover{
+	background-color: #f8b808;
+	
+}
+
+#datasend{
+	height:25px;
+	width:55px;
+	margin-top: 5px;
+	border: solid #050575;
+	border-radius: 25px;
+	cursor: pointer;
+	background-color: #05c7e0;
+}
+
+#datasend:hover{
+	background-color: #c902e4;
+}
+#datasend:active{
+	background-color: red;
+}
+
+#userSearch{
+	height:35px;
+	width:90%;
+	border: none;
+	border-bottom: thin black;
+	background-color: #23f8e377;
+	padding-left: 30px;
+}
+
+#userSearch:hover{
+	background-color: #f8b808;
+}
+h2{
+	margin-left: 15%;
+}
